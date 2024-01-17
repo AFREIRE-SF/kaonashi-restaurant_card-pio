@@ -6,6 +6,7 @@
 
 h1, h2, h3, p {   
     font-family: sans-serif;
+    padding: 8px;
 }
 
 body{
@@ -52,6 +53,10 @@ h3{
     background-color: #F2E2C4;
     padding: 10px;
     font-size:18px;
+    font-style: bold;
+    box-shadow: 2px 2px 4px rgba(30, 239, 62, 0.5);
+   
+
 
 }
 
@@ -78,6 +83,14 @@ h3{
     gap: 16px;
 }
 
+.flex-column-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
 .flex-row{
     display: flex;
     flex-direction: row;
@@ -98,7 +111,7 @@ h3{
 .subTitleCardapio{
     text-align: center;
     font-size:24px;
-   padding-top: 8px;
+   padding-top: 32px;
    padding-bottom:32px;
 
 }
@@ -111,9 +124,11 @@ h3{
 
 article{
     max-width: 255px;
-    height: 350px;
+    height: 400px;
     border-radius: 10px;
     border: 3px solid #BF5D39;
+    background-color: #ffffff;
+    
 }
 article header{
     width: 100%;
@@ -123,9 +138,181 @@ article main{
     padding: 5px;
 }
 
+article h2{
+    padding: 4px;
+    font-size: 16px;
+}
+
+article p{
+    padding: 4px;
+    font-size: 14px;
+
+}
+
+ article span{
+    font-size:32px;
+    font-family: sans-serif;   
+    color: #A62929;
+    padding-left: 90px;
+    padding-top: 8px;
+    padding-bottom:4px;
+  
+
+}
+
+article button{
+    width: 130px;
+    height: 45px;
+    border-radius: 8px;
+    border: 4px solid #D99F6C;
+    text-align: center;
+    text-decoration: none;
+    background-color: #F2E2C4;
+    padding: 0px;
+    font-size:16px;
+    font-style: bold;
+    box-shadow: 2px 2px 4px rgba(30, 239, 62, 0.5);
+   
+
+}
+
+article button:hover{
+    background-color: #9FD996;
+    color: #BF5D39;
+}
+
+.encomenda{
+    padding-top:128px;
+}
+
+.encomenda h1{
+    text-align: center;
+    font-size:36px;
+    padding-top: 62px;
+
+}
+
+.encomenda p, h2, span{
+    text-align: center;
+    font-size:24px;
+    
+
+}
+
+.botao{
+    width: 130px;
+    height: 50px;
+    border-radius: 8px;
+    border: 4px solid #D99F6C;
+    text-align: center;
+    text-decoration:none;
+    background-color: #F2E2C4;
+    padding: 10px;
+    font-size:18px;
+    font-style: bold;
+    box-shadow: 2px 2px 4px rgba(30, 239, 62, 0.5);
+
+}
+
+.encomenda button:hover{
+    background-color: #9FD996;
+    color: #BF5D39;
+}
+
+.encomenda a{
+    text-decoration: none;
+    color:#000000ff;
+}
+
+.redes{
+    text-align: center;
+    padding-top:128px;
+}
+
+.redes h1{
+    padding:30px;
+}
+
+.redes img {
+   width: 50px;
+}
+
+.form2{
+    padding-left: 30px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    }
+
+#emailUser{
+    width: 440px;
+    height: 50px;
+    border-radius: 8px;
+    border: 4px solid #D99F6C;
+    font-size: 18px;
+    padding-left: 20px;
+   
+}
+
+
+.Tabela01 h1{
+    text-align: center;
+    padding-top:128px;
+    padding-bottom: 32px;
+    
+}
+
+.Tabela01 {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    
+   
+padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #9FD996;
+}
 
 
 
+
+
+
+
+
+
+.botaoretornar {
+    width: 130px;
+    height: 50px;
+    border-radius: 8px;
+    border: 4px solid #F24B59;
+    text-align: center;
+    text-decoration:none;
+    background-color: #F2E2C4;
+    padding: 10px;
+    font-size:18px;
+    font-style: bold;
+    box-shadow: 2px 2px 4px rgba(30, 239, 62, 0.5); 
+   
+}
+.botaoretornar button:hover{
+    background-color: #9FD996;
+    color: #BF5D39;
+}
+
+.botaoretornar a{
+    text-decoration: none;
+    color:#000000ff;
+}
+
+.botaoretornar{
+    margin: 20px;
+}
 
 
 
